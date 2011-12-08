@@ -5,7 +5,7 @@ require "rtf_filter/version"
 Gem::Specification.new do |s|
   s.name        = "rtf_filter"
   s.version     = RtfFilter::VERSION
-  s.authors     = ["PS COmputer Services LTD"]
+  s.authors     = ["PS Computer Services LTD"]
   s.email       = ["it@pscomputer.co.uk"]
   s.homepage    = ""
   s.summary     = %q{Converts Rich Text Format (RTF) word processing files to plain text}
