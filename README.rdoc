@@ -1,9 +1,8 @@
-
 A ruby gem that reads a Rich Text Format (RTF) word processing file and outputs plain text.
 
 == Installation
 
-You need to have the rtf-filter C++ library installed:
+You need to have the rtf-filter C++ executable installed:
 
 https://github.com/PS-Computer-Services-Ltd/rtf-filter
 
