@@ -1,7 +1,9 @@
 require "rtf_filter/version"
 
 module RtfFilter
-  def self.to_txt(filename, allow_tags=false)
+  def self.to_txt(filename, options={})
+    allow_tags = options[:allow_tags] || false
+    puts allow_tags
     if  File.exist?(filename)
       txt = ""
     	IO.popen("rtffilter --source '"+filename+"' --toStdOut"+self.allow_tags(allow_tags)).each_line do |l|
