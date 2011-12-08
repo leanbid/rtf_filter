@@ -1,0 +1,22 @@
+
+A ruby gem that reads a Rich Text Format (RTF) word processing file and outputs plain text.
+
+== Installation
+
+You need to have the rtf-filter C++ library installed:
+
+https://github.com/PS-Computer-Services-Ltd/rtf-filter
+
+
+== Bug reports
+
+If you discover a problem with rtf-filter, we would like to know about it.
+
+Our Issues Tracker is available here: 
+
+https://pscomputer.lighthouseapp.com/projects/87573-rtf_filter-ruby-gem
+
+== License
+
+COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0
+Copyright PS Computer Services Ltd 2003-2011
