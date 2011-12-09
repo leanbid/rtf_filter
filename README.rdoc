@@ -14,7 +14,7 @@ Convert rtf file to txt file. Will create name_of_file.txt
 
   RtfFilter.to_txt_file('name_of_file.rtf', :format_txt => true)
 
-Specify directory txt file should be written to
+Specify directory text file should be written to
 
   RtfFilter.to_txt_file('name_of_file.rtf', :destination_folder => 'folder_name', :format_txt => true)
 
