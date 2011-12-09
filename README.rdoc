@@ -1,5 +1,30 @@
 A ruby gem that reads a Rich Text Format (RTF) word processing file and outputs plain text.
 
+== Usage
+
+Convert rtf file to plain text
+
+  RtfFilter.to_txt('name_of_file.rtf')
+
+Convert rtf file and format text (this will remove blank lines at top and bottom of document, multiple line breaks and justify text left)
+
+  RtfFilter.to_txt('name_of_file.rtf', :format_txt => true)
+
+Convert rtf file to txt file. Will create name_of_file.txt
+
+  RtfFilter.to_txt_file('name_of_file.rtf', :format_txt => true)
+
+Specify directory txt file should be written to
+
+  RtfFilter.to_txt_file('name_of_file.rtf', :destination_folder => 'folder_name', :format_txt => true)
+
+
+Other options
+
+ :allow_tags => true #Does not supress output of angle bracketted tags e.g. <notes>, default is fase
+ :io_exception => true #return IO exceptions instead of nil if there is a file / directory problem
+ 
+
 == Installation
 
 You need to have the rtf-filter C++ executable installed:
