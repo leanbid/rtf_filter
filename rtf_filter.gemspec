@@ -10,10 +10,11 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/PS-Computer-Services-Ltd/rtf_filter"
   s.summary     = %q{Converts Rich Text Format (RTF) word processing files to plain text}
   s.description = %q{Converts Rich Text Format (RTF) word processing files to plain text. Uses the rtf-filter C++ executable}
+  s.license = "CDDL"
 
   s.rubyforge_project = "rtf_filter"
 
-  s.files         = `git ls-files`.split("\n")
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["CDDL-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
