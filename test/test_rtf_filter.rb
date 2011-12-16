@@ -31,7 +31,7 @@ class RtfFilterTest < Test::Unit::TestCase
 
   def test_format_txt_should_align_text_to_left
 	text = "l1\n\n  l2 content"
-	assert_equal RtfFilter.format_txt(text), "l1\n\nl2 content" 
+	assert_equal "l1\n\nl2 content", RtfFilter.format_txt(text)
   end
 
 end

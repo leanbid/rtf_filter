@@ -47,7 +47,7 @@ module RtfFilter
 
   def self.format_txt(txt)
     txt.strip! #remove blank lines at begining and end
-    txt.gsub!(/^(|\n)[ \t\r]+/, "#{$1}") #delete leading whitespace (spaces/tabs) from beginning of each line
+    txt.gsub!(/(^|\n)[ \t\r]+/, "\\1") #delete leading whitespace (spaces/tabs) from beginning of each line
     txt.gsub!(/\n{3,}/, '\n\n') #replace all occurrences of 3 or more line breaks with just two
     return txt
   end
