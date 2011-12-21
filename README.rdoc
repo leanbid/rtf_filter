@@ -29,7 +29,7 @@ Other options
 
 You need to have the rtf-filter C++ executable installed:
 
-https://github.com/PS-Computer-Services-Ltd/rtf-filter
+https://github.com/leanbid/rtf-filter
 
 
 == Bug reports
