@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = %q{Converts Rich Text Format (RTF) word processing files to plain text. Uses the rtf-filter C++ executable}
   s.license = "CDDL"
 
-  s.requirements = "rtf-filter C++ executable https://github.com/PS-Computer-Services-Ltd/rtf-filter"
+  s.requirements = "rtf-filter C++ executable https://github.com/leanbid/rtf-filter"
 
   s.rubyforge_project = "rtf_filter"
 
