@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = RtfFilter::VERSION
   s.authors     = ["Leanbid LTD"]
   s.email       = ["it@leanbid.com"]
-  s.homepage    = "https://github.com/PS-Computer-Services-Ltd/rtf_filter"
+  s.homepage    = "https://github.com/leanbid/rtf_filter"
   s.summary     = %q{Converts Rich Text Format (RTF) word processing files to plain text}
   s.description = %q{Converts Rich Text Format (RTF) word processing files to plain text. Uses the rtf-filter C++ executable}
   s.license = "CDDL"
